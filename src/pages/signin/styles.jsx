@@ -26,12 +26,12 @@ export const Content = styled.div`
 export const Label = styled.label`
   font-size: 18px;
   font-weight: 600px;
-  color: #676767;
+  color: var(--gray);
 `;
 
 export const LabelSignUp = styled.label`
   font-size: 16px;
-  color: #676767;
+  color: var(--gray);
 `;
 
 export const LabelError = styled.label`
@@ -44,6 +44,6 @@ export const Strong = styled.strong`
 
   a {
     text-decoration: none;
-    color: #676767;
+    color: var(--gray);
   }
 `;
